@@ -58,7 +58,7 @@ public class Masstamilansongsdownload {
 //				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //				wait.until(ExpectedConditions.presenceOfElementLocated((By) webElement));
 				String movie = webElement.getAttribute("title");
-				if(movie.equalsIgnoreCase("Don Songs Download")){
+				if(movie.equalsIgnoreCase("Love Today Songs Download")){
 				webElement.click();
 				driver.findElement(By.partialLinkText("128kbps ZIP")).click();
 			
